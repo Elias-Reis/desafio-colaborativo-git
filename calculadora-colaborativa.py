@@ -8,6 +8,8 @@ def soma (a, b):
     return a + b
 
 #Função de subtração:
+def subtração (a, b):
+    return a - b
 
 #Função de multiplicação:
 
@@ -26,6 +28,8 @@ if operador == "+":
     calc = soma(num1, num2)
 
 #Subtração:
+elif operador == "-":
+    calc = subtração(num1, num2)
 
 #Multiplicação:
 

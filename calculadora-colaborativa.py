@@ -14,7 +14,8 @@ def subtração (a, b):
 #Função de multiplicação:
 
 #Função de divisão:
-
+def divisao(a, b):
+    return a / b
 
 
 num1 = float(input("Digite o primeiro numero: "))
@@ -34,7 +35,9 @@ elif operador == "-":
 #Multiplicação:
 
 #Divisão:
-
+elif operador == "/":
+    calc = divisao(num1, num2)
+    
 #Quando o usuário errar [else]:
 else:
     print("Operador não identificado!")

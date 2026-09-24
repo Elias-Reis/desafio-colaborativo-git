@@ -12,7 +12,8 @@ def subtração (a, b):
     return a - b
 
 #Função de multiplicação:
-
+def multiplicacao (a, b):
+    return a * b
 #Função de divisão:
 
 
@@ -32,7 +33,8 @@ elif operador == "-":
     calc = subtração(num1, num2)
 
 #Multiplicação:
-
+elif operador == "*":
+    calc = multiplicacao(num1, num2)
 #Divisão:
 
 #Quando o usuário errar [else]:

@@ -5,7 +5,7 @@
 
 #Função de soma:
 def soma (a, b):
-    return a + b
+    return a * b #aaaaaa
 
 #Função de subtração:
 def subtração (a, b):
